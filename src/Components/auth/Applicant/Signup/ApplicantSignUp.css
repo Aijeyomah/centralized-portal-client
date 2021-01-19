@@ -1,0 +1,124 @@
+.signup_wrapper {
+    width: 800px;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+.signup_wrapper .applicant {
+    margin-top: 0;
+    margin-bottom: 56px;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.first-row, .second-row, .third-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.enyata-logo {
+    width: 90px;
+    height: 105.67px;
+    margin: 0 auto 8px auto;
+}
+
+.enyata-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-row input, .second-row input, .third-row input {
+    padding: 10px;
+    height: 41px;
+    width: 379px;
+    box-sizing: border-box;
+    border: 1.5px solid #BDBDBD;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 29px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.first-row label, .second-row label, .third-row label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+
+.signup_wrapper button {
+    position: relative;
+    width: 520px;
+    height: 50px;
+    background-color: #2B3C4E;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    margin-left: 50%;
+    right: 260px
+}
+
+.signup_wrapper button:hover {
+    background-color: #5abefd;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s
+}
+
+.eye-icon {
+    position: absolute;
+    width: 19px;
+    height: 11px;
+    left: 348px;
+    top: 35px;
+}
+
+.eye-icon:hover, .second-eye:hover {
+    cursor: pointer;
+}
+
+.eye-icon img, .second-eye img {
+    width: 100%; 
+    height: 100%;
+}
+
+.second-eye {
+    position: absolute;
+    width: 19px;
+    height: 11px;
+    right: 12px;
+    top: 35px;
+}
+
+.sign-in-link {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.sign-in-link span {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    color: #1A2C56;
+}
+
+.red {
+    text-align: center;
+}
+

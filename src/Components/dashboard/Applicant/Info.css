@@ -1,0 +1,28 @@
+.info_container {
+    width: 240px;
+    margin-top: 60px;
+}
+
+.info_one {
+    border-top: 4px solid #006DF0;
+    width: 148px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+    margin-top: 19px;
+    padding-top: 9px;
+}
+
+.info_three {
+    border-top: 4px solid #F09000;
+    width: 148px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+    margin-top: 19px;
+    padding-top: 9px;
+}

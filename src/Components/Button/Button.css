@@ -1,0 +1,39 @@
+.submitBtn{
+background: #2B3C4E;
+border-radius: 4px;
+width: 380px;
+height: 50px;
+outline: none;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+outline: none;
+cursor: pointer;
+border: none;
+margin-top: 40px;
+}
+
+.disabled{
+    background: #2B3C4E;
+    border-radius: 4px;
+    width: 379px;
+    height: 50px;
+    outline: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: not-allowed;
+    border: none;
+    margin-top: 40px;
+    }
+
+.submitBtn:hover {
+    background-color: #5abefd;
+    color: #fff;
+    transition: .5s
+}

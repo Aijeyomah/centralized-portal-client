@@ -1,0 +1,72 @@
+.logo {
+/* position: absolute; */
+    width: 48px;
+    height: 52px;
+    margin-top: 15%;
+}
+
+.brandName {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    color: #2B3C4E;
+    margin-top: 16px;
+}
+
+.brandText {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2B3C4E;
+    margin: 9px 0 0 0;
+}
+
+.loginForm {
+    margin-top: 56px;
+}
+
+label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+}
+
+.formText {
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #4F4F4F;
+}
+
+.loginText{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.loginText p:nth-child(2) > a {
+    color: #4F4F4F;
+}
+
+.loginText p:nth-child(2) > a:hover {
+    color: #1A2C56;
+}
+.loginText > p > a {
+    color: #1A2C56;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container{
+    margin:0 auto; 
+    width: 379px;
+}
+
+.logoDiv, .tagline {
+    text-align: center;
+}

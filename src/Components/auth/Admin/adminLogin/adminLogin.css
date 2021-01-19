@@ -1,0 +1,99 @@
+.logo {
+    width: 48px;
+    height: 52px;
+    margin-top: 15%;
+}
+
+.adminBrandName {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.adminBrandText {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    margin: 9px 0 0 0;
+}
+
+.loginForm {
+    margin-top: 56px;
+}
+
+.label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+
+.adminFormText {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #fff;
+}
+
+.adminLoginText{
+    display: block;
+    text-align: right;
+    margin-top: 12px;
+}
+    .adminLoginText p > a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.adminLoginText p > a:hover {
+    color: #5ABEFD;
+}
+    
+.admin_container{
+    margin:0 auto; 
+    width: 379px;
+    /* display: block; */
+}
+
+.logoDiv, .tagline {
+    text-align: center;
+}
+
+.body{
+    background-color:#111E2B;
+    background-image: url('../../../../Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    width: 100vw;
+    height:100vh;
+}
+
+.adminInput, .adminPasswordInput {
+    border: 1.5px solid #FFFFFF;
+    background: transparent;
+    color: #fff;
+}
+
+.passwordWrapper {
+    background: transparent;
+}
+
+.adminInput:focus, .adminPasswordInput:focus {
+    border-color: #5ABEFD;
+}
+
+.adminErrorMsg {
+    margin-top: -10px;
+    color: #f30404;
+    padding-bottom: 10px;
+}

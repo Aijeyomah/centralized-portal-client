@@ -1,0 +1,34 @@
+.assess-success {
+    width: 449px;
+    height: 276px;
+    margin: 130px auto 0 auto
+}
+
+.assess-success img {
+    width: 100%;
+    height: 100%
+}
+
+.congrats {
+    font-weight: 700;
+    font-style: italic;
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(78, 78, 78)
+}
+
+.congrats button {
+    background: rgb(78, 78, 78);
+    border-radius: 4px;
+    width: 265px;
+    height: 41px;
+    color: #fff;
+    border: none;
+}
+
+.congrats button:hover {
+    background: #5abefd;
+    transition: .5s;
+    cursor: pointer
+}

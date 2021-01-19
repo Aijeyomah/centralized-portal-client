@@ -1,0 +1,33 @@
+.admin_info_container {
+    width: 148px;
+}
+
+.admin_info_one {
+    border-top: 4px solid #006DF0;
+}
+
+.admin_info_two {
+    border-top: 4px solid #00F026;
+}
+
+.admin_info_three {
+    border-top: 4px solid #F09000;
+}
+
+.admin_info_one, .admin_info_two, .admin_info_three {
+    width: 148px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+    margin-top: 19px;
+    padding-top: 9px;
+}
+
+.admin_info_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 65px;
+}

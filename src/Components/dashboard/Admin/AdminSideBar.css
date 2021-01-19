@@ -1,0 +1,138 @@
+.sidebar {
+    background-color: turquoise;
+    min-height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-head {
+    width: 100%;
+    height: 205px;
+    background-color: #5ABEFD;
+    margin: 0 auto;
+}
+
+.sidebar-head div {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: 50%;
+    right: 50px;
+    box-sizing: border-box
+}
+
+.sidebar-head img {
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+    margin: 20px auto;
+}
+
+.sidebar-wrapper:hover {
+    cursor: pointer
+}
+
+.admin_name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2B3C4E;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0
+}
+
+.admin_email {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #2B3C4E;
+    text-align: center;
+    margin: 0
+}
+
+.sidebar-links {
+    margin-top: 20px;
+}
+
+.one, .two {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.dash-icon {
+    width: 14.44px;
+    height: 12.37px;
+    margin-bottom: 5px;
+    margin-right: 9px;
+}
+
+.result-icon {
+    width: 14px;
+    height: 15.08px;
+    margin-right: 9px;
+}
+
+.assesshis-icon {
+    width: 18px;
+    height: 19.69px;
+    margin-top: 4px;
+    margin-right: 9px;
+}
+
+.composeassess-icon {
+    width: 14px;
+    height: 18.69px;
+    margin-right: 9px;
+}
+
+.appentries-icon {
+    width: 14px;
+    height: 18.69px;
+    margin-right: 9px;
+}
+
+.createapp-icon {
+    width: 14px;
+    height: 18.69px;
+    margin-right: 9px;
+}
+
+.dash-icon img, .createapp-icon img, .appentries-icon img, .composeassess-icon img, .assesshis-icon img, .result-icon img {
+    width: 100%;
+    height: 100%
+}
+
+.assess-icon {
+    width: 14.44px;
+    height: 12.37px;
+    margin-bottom: 5px;
+    margin-right: 9px;
+}
+
+.assess-icon img {
+    width: 100%;
+    height: 100%
+}
+
+.link-active {
+    border-left: 4px solid #31D283;
+    height: 49px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    transition: .5s;
+    font-size: 16px;
+}
+
+.link-inactive {
+    display: flex;
+    text-decoration: none;
+    color: #2B3C4E;
+}

@@ -1,0 +1,36 @@
+.passwordWrapper{
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
+} 
+
+.eye {
+    position: absolute;
+    top: 45%;
+    right: 4%;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+input {
+    border: 1.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    width: 379px;
+    height: 41px;
+    margin: 5px 0 20px 0;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #2B3C4E;
+}
+
+.errorMsg {
+    margin-top: -10px;
+    color: darkred;
+    padding-bottom: 10px;
+}

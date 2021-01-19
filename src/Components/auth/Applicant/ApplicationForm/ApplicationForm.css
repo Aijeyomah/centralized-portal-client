@@ -1,0 +1,152 @@
+.signup-wrapper {
+    width: 800px;
+    margin: 40px auto;
+    padding: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.applicant {
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2B3C4E;
+    text-align: center;
+}
+
+.first-row, .second-row, .third-row, .fourth-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.enyata-logo {
+    width: 90px;
+    height: 105.67px;
+    margin: 40px auto 8px auto;
+}
+
+.enyata-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-row input, .second-row input, .third-row input, .fourth-row input {
+    padding: 10px;
+    height: 41px;
+    width: 379px;
+    box-sizing: border-box;
+    border: 1.5px solid #BDBDBD;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 29px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.first-row label, .second-row label, .third-row label, .fourth-row label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+
+.signup-wrapper button {
+    position: relative;
+    width: 520px;
+    height: 50px;
+    background-color: #2B3C4E;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    margin-left: 50%;
+    right: 260px
+}
+
+.signup-wrapper button:hover {
+    background-color: #5abefd;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s
+}
+
+.file-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px dashed #2B3C4E;
+    box-sizing: border-box;
+    border-radius: 2.87205px;
+    width: 290px;
+    height: 49.97px;
+    margin: 0 auto 10px auto;
+    padding: 10px
+}
+
+.file-container div {
+    width: 12.41px;
+    height: 12.41px;
+    margin-bottom: 4px;
+    margin-right: 7px;
+}
+
+.file-container div img {
+    width: 100%;
+    height: 100%;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 16px;
+    color: #2B3C4E;
+    cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: #6d6c6c;
+}
+
+#date_of_birth {
+  border: 1.5px solid #BDBDBD;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 10px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#date_of_birth:focus {
+    border-color: #2B3C4E;
+}
+
+.message {
+    font-size: 14px;
+    text-align: center;
+    color: #2B3C4E;
+    margin: 0 auto 20px auto
+}

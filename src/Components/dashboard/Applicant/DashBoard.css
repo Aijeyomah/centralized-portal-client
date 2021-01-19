@@ -1,0 +1,263 @@
+.assessment_n_timer {
+    display: flex;
+    margin: 60px 70px 0 70px;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.assessment_n_timer .top-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43.5555px;
+    color: #2B3C4E;
+    margin: 0;
+}
+
+.assessment_n_timer .bottom-text {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B3C4E;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.timer-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #4F4F4F;
+    margin: 0
+}
+
+.timer-count {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #2B3C4E;
+    margin: 0;
+    margin-top: 7px;
+    margin-right: 30px;
+    display: flex
+}
+
+.timer-count-mins {
+    padding-right: 25px;
+    margin: 0;
+}
+
+.timer-count-sec {
+    margin: 0;
+}
+
+.timer-section {
+    position: relative
+}
+
+.minutes {
+    position: absolute;
+    top: 50px;
+    left: 54px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+
+.sec {
+    position: absolute;
+    top: 50px;
+    left: 134px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+.hourglass_n_content {
+    width: 345px;
+    margin: 120px auto;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.7273px;
+    line-height: 20px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.hourglass-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+.hourglass_n_content img {
+    width: 100%;
+    height: 100%;
+}
+
+.hourglass_n_content button {
+    position: relative;
+    width: 286px;
+    height: 41px;
+    background: #B1B1B1;
+    border-radius: 4px;
+    margin-left: 50%;
+    right: 143px;
+    border: none;
+    color: #fff
+}
+
+.hourglass_n_content button:hover {
+    background: #5abefd;
+    cursor: pointer;
+    transition: .5s
+}
+
+.question-display {
+    text-align: center;
+    margin: 70px auto 50px auto
+}
+
+.question-display h2 {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2B3C4E;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.question-display h1 {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2B3C4E;
+    margin: 0;
+    margin-bottom: 40px
+}
+
+.options {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2B3C4E;
+    margin: 0 auto 20px auto;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 1px 0.3px rgba(90, 190, 253, 0.34);
+    border-radius: 4px;
+}
+
+.clicked {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2B3C4E;
+    margin: 0 auto 20px auto;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    background-color: #5abefd;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 20px 1.4px rgba(96, 171, 218, 0.34);
+    border-radius: 4px;
+}
+
+.question-display p:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 7px 2px rgba(90, 190, 253, 0.34);
+    transition: .5s;
+    border: 0.3px solid #ccc
+}
+
+.prev-n-next-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 220px 20px 220px
+}
+
+.prev-n-next-button button {
+    width: 126px;
+    height: 41px;
+    background-color: #2B3C4E;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.finish-button button {
+    width: 206px;
+    height: 41px;
+    background-color: #CECECE;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.prev-n-next-button button:hover, .finish-button button:hover {
+    background-color: #5abefd;
+    transition: .5s;
+}
+
+.prev-n-next-button button:active, .finish-button button:active {
+    background-color: red;
+    transition: .5s;
+}
+
+.finish-button {
+    position: relative;
+    margin-left: 50%;
+    right: 103px;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    position: fixed;
+    padding: 10px;
+    width: 260px;
+    height: 20px;
+    background-color: #31D283;
+    color: rgb(32, 32, 32);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    margin-left: -50%;
+    right: 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    z-index: 10
+}
+
